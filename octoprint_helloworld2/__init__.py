@@ -8,6 +8,7 @@ import octoprint.plugin
 class HelloWorldPlugin(octoprint.plugin.StartupPlugin, octoprint.plugin.TemplatePlugin):
     def on_after_startup(self):
         self._logger.info("Hello World!!!!!!!!!!!!!!!!!")
+        self._logger.info("Hello World2")
 
 
 __plugin_name__ = "Hello World Override"
